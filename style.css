@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(0deg, rgb(0, 0, 7) 0%, rgb(20, 20, 32) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+#title{
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0.3em;
+    border-radius: 5px;
+    border: 10px double #ffffff;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+#display{
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-shadow: 1px -1px 9px rgba(255,255,255,0.84);
+}
+
+#control button{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px 20px;
+    margin: 10px 20px;
+    min-width: 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#start:hover{
+    background: radial-gradient(ellipse at center, rgb(50, 45, 122) 0%, rgba(0, 0, 0, 0) 75%);
+}
+
+#stop:hover{
+    background: radial-gradient(ellipse at center, rgb(122, 45, 45) 0%, rgba(0, 0, 0, 0) 75%);
+}
+
+#reset:hover{
+    background: radial-gradient(ellipse at center, rgb(122, 114, 45) 0%, rgba(0, 0, 0, 0) 75%);
+}
